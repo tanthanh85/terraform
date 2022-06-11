@@ -20,6 +20,6 @@ provider "aci" {
 
 # Define an ACI Tenant Resource.
 resource "aci_tenant" "terraform_tenant" {
-    name        = "andythanh_tenant"
+    name        = "terraform_tenant"
     description = "This tenant is created by terraform - Andy"
 }
