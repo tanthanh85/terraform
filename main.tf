@@ -20,6 +20,6 @@ provider "aci" {
 
 # Define an ACI Tenant Resource.
 resource "aci_tenant" "terraform_tenant" {
-    name        = var.tenant.name
-    description = var.tenant.description
+    name        = var.tenant
+    description = "This is devnet tennant"
 }
